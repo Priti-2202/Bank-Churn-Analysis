@@ -6,88 +6,86 @@ The analysis provides insights into customer demographics, product usage, and ch
 
 🚩 Problem Statement
 
-FNP needed a way to track and analyze sales performance efficiently. With raw sales data spread across multiple metrics, it was difficult to:
-
-Identify revenue trends over time.
-
-Spot top-performing and underperforming products.
-
-Understand regional variations in sales.
-
-Monitor key performance indicators (KPIs) in one place.
+Banks often face difficulties in identifying customers at risk of leaving. Without proper analysis, it becomes challenging to design targeted retention campaigns.
 
 🔑 Objectives
 
-To design an interactive Excel dashboard that consolidates sales data.
+To analyze customer demographics and behavior affecting churn.
 
-To analyze monthly/quarterly sales performance and growth trends.
+To identify key factors (age, tenure, balance, products, etc.) influencing churn.
 
-To identify top-selling categories, products, and regions.
+To visualize churn patterns through an interactive dashboard.
 
-To provide actionable insights for business decision-making.
+To provide actionable insights for customer retention strategies.
 
 📂 Dataset
 
-Source: FNP Sales Data (Excel)
+Source: Kaggle – Bank Customer Churn Dataset
+
+Size: 10,000 records
 
 Features:
 
-Order ID, Date, Region
+CustomerID, Age, Gender, Geography
 
-Product Category & Sub-Category
+Balance, Credit Score, Tenure
 
-Quantity Sold, Sales, Profit
+Number of Products, IsActiveMember
 
-Discounts & Revenue
+Estimated Salary
+
+Churn (Yes/No – Target Variable)
 
 🛠️ Tools & Technologies
 
-Data Processing: Microsoft Excel
+Data Cleaning & Preprocessing: Power Query
 
-Dashboard Design: Excel Pivot Tables, Charts, and Slicers
+Data Visualization: Power BI
 
-Data Analysis: Formulas, Conditional Formatting, and KPIs
+Data Analysis: DAX measures & calculated columns
+
+Version Control: Git & GitHub
 
 📊 Dashboard Highlights
 
-The dashboard provides the following insights:
+The Power BI dashboard includes the following insights:
 
-✅ Revenue Trends – monthly & quarterly sales analysis.
+✅ Churn Distribution – % of customers who left vs retained.
 
-✅ Top Products & Categories – best and worst performers.
+✅ Demographics Analysis – churn by age, gender, and geography.
 
-✅ Regional Insights – sales distribution by region.
+✅ Financial Factors – impact of balance, salary, and credit score on churn.
 
-✅ KPIs Tracking – sales growth, total profit, discount impact.
+✅ Customer Engagement – churn by tenure, number of products, and activity status.
 
-✅ Interactive Filters – analyze data by region, product category, and time period.
+✅ Interactive Filters – drill down by geography, age groups, and more.
 
 📈 Key Findings
 
-Seasonal peaks were observed in certain months due to festive sales.
+Customers with low tenure and low balance are more likely to churn.
 
-A few regions consistently outperformed others, highlighting demand concentration.
+France showed higher churn rates compared to Germany and Spain.
 
-Discounts impacted profitability, requiring optimization.
+Inactive members had a significantly higher churn percentage.
 
-Certain product categories drove majority of the revenue.
+Younger customers (age < 35) were more likely to leave compared to older groups.
 
 🚀 Steps Taken
 
-Cleaned and structured raw sales data in Excel.
+Imported raw dataset into Power BI.
 
-Created pivot tables and applied formulas for KPI calculations.
+Cleaned and transformed data using Power Query.
 
-Designed visual charts (bar, line, pie) to highlight trends.
+Created DAX measures for churn rate, retention rate, and customer segmentation.
 
-Built an interactive dashboard with slicers and filters.
+Designed an interactive dashboard with KPIs, bar charts, pie charts, and slicers.
 
-Documented business insights and results.
+Derived insights and documented results.
 
 🎯 Results / Impact
 
-Delivered a one-click interactive dashboard to analyze sales performance.
+Delivered a visual analytics tool to identify churn patterns.
 
-Improved business visibility on top-performing products and regions.
+Helped in understanding customer behavior and risk factors.
 
-Enabled data-driven decision-making for sales and marketing teams.
+Provided a foundation for data-driven customer retention strategies.
