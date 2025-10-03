@@ -4,11 +4,11 @@ Customer churn is a major challenge in the banking sector, as losing customers d
 
 The analysis provides insights into customer demographics, product usage, and churn trends, enabling data-driven strategies to improve customer retention.
 
-🚩 Problem Statement
+# 🚩 Problem Statement
 
 Banks often face difficulties in identifying customers at risk of leaving. Without proper analysis, it becomes challenging to design targeted retention campaigns.
 
-🔑 Objectives
+# 🔑 Objectives
 
 To analyze customer demographics and behavior affecting churn.
 
@@ -18,7 +18,7 @@ To visualize churn patterns through an interactive dashboard.
 
 To provide actionable insights for customer retention strategies.
 
-📂 Dataset
+# 📂 Dataset
 
 Source: Kaggle – Bank Customer Churn Dataset
 
@@ -36,7 +36,7 @@ Estimated Salary
 
 Churn (Yes/No – Target Variable)
 
-🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 
 Data Cleaning & Preprocessing: Power Query
 
@@ -46,7 +46,7 @@ Data Analysis: DAX measures & calculated columns
 
 Version Control: Git & GitHub
 
-📊 Dashboard Highlights
+# 📊 Dashboard Highlights
 
 The Power BI dashboard includes the following insights:
 
@@ -60,7 +60,7 @@ The Power BI dashboard includes the following insights:
 
 ✅ Interactive Filters – drill down by geography, age groups, and more.
 
-📈 Key Findings
+# 📈 Key Findings
 
 Customers with low tenure and low balance are more likely to churn.
 
@@ -70,7 +70,7 @@ Inactive members had a significantly higher churn percentage.
 
 Younger customers (age < 35) were more likely to leave compared to older groups.
 
-🚀 Steps Taken
+# 🚀 Steps Taken
 
 Imported raw dataset into Power BI.
 
@@ -82,7 +82,7 @@ Designed an interactive dashboard with KPIs, bar charts, pie charts, and slicers
 
 Derived insights and documented results.
 
-🎯 Results / Impact
+# 🎯 Results / Impact
 
 Delivered a visual analytics tool to identify churn patterns.
 
